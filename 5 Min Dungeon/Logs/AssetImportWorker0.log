@@ -15,11 +15,11 @@ F:/Desarrollo/Unity/Proyectos/5 Min Dungeons/5 Min Dungeon
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62129
+63838
 Successfully changed project path to: F:/Desarrollo/Unity/Proyectos/5 Min Dungeons/5 Min Dungeon
 F:/Desarrollo/Unity/Proyectos/5 Min Dungeons/5 Min Dungeon
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 61.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 126.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path F:/Desarrollo/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'F:/Desarrollo/Unity/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Desarrollo/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'F:/Desarrollo/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Desarrollo/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/Desarrollo/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004576 seconds.
+Registered in 0.004773 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 119.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.905 seconds
+- Completed reload, in  1.028 seconds
 Domain Reload Profiling:
-	ReloadAssembly (906ms)
-		BeginReloadAssembly (90ms)
+	ReloadAssembly (1028ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (718ms)
-			LoadAssemblies (90ms)
+		EndReloadAssembly (790ms)
+			LoadAssemblies (120ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (249ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (270ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (27ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (25ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008009 seconds.
+Registered in 0.008793 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 118.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.932 seconds
+- Completed reload, in  1.999 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1933ms)
-		BeginReloadAssembly (248ms)
+	ReloadAssembly (2001ms)
+		BeginReloadAssembly (263ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1581ms)
-			LoadAssemblies (194ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1648ms)
+			LoadAssemblies (258ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (535ms)
+			SetupTypeCache (465ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (555ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (639ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (139ms)
-				ProcessInitializeOnLoadAttributes (308ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (350ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 96.0 MB.
+System memory in use before: 98.5 MB.
+System memory in use after: 98.6 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
-Total: 4.284100 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.099500 ms MarkObjects: 3.891200 ms  DeleteObjects: 0.098400 ms)
+Total: 3.830500 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.099100 ms MarkObjects: 3.454300 ms  DeleteObjects: 0.076500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,25 +135,657 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006762 seconds 
-  Import took 0.020611 seconds .
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28
+  artifactKey: Guid(ed00215877b1b8746b0efeabe04ef030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28 using Guid(ed00215877b1b8746b0efeabe04ef030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af9f7b604684b04c776153169b46663') in 0.005857 seconds 
+  Import took 0.010023 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.007510 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(5124c1e7acc1f9f419f98d4e5bd6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(5124c1e7acc1f9f419f98d4e5bd6cdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e6507a106810547a59a3173b2ab1b1') in 0.003779 seconds 
-  Import took 0.027764 seconds .
+  Time since last request: 0.000409 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set
+  artifactKey: Guid(365e84d8d9cc4014985a33d0115d809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set using Guid(365e84d8d9cc4014985a33d0115d809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2c2caaf100ccb7788e87689549128') in 0.002857 seconds 
+  Import took 0.008606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 352.446866 seconds.
-  path: Packages/com.unity.2d.tilemap
-  artifactKey: Guid(4e00cf00a7281e0d7ee16a9f76f3c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.tilemap using Guid(4e00cf00a7281e0d7ee16a9f76f3c3bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4db2989a23261ac4400a439f7f11f4') in 0.003481 seconds 
-  Import took 0.012622 seconds .
+  Time since last request: 0.000274 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_03.png
+  artifactKey: Guid(a5f4795c23f86204a9fed20bf64bf79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_03.png using Guid(a5f4795c23f86204a9fed20bf64bf79d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8ba387e8a865230ed7b901cbf1797a') in 0.148797 seconds 
+  Import took 0.152968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced
+  artifactKey: Guid(94c2b1aa84c4b8a4aafa493c83fc825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced using Guid(94c2b1aa84c4b8a4aafa493c83fc825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfbe00edadd96a2df6c528276113106') in 0.002405 seconds 
+  Import took 0.006200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246540 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_05.png
+  artifactKey: Guid(6952e99ec0d05ad47aebb60c41a15f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_05.png using Guid(6952e99ec0d05ad47aebb60c41a15f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d47a0b3c9b2517b931952231b05dae1') in 0.015636 seconds 
+  Import took 0.023415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.502206 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_07.png
+  artifactKey: Guid(8540cfb233f04d240a6a9b4a7c7ba586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_07.png using Guid(8540cfb233f04d240a6a9b4a7c7ba586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f1140a09820f26482234897be70aef') in 0.011237 seconds 
+  Import took 0.018661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030418 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_09.png
+  artifactKey: Guid(f593b0f762d6a3644bb76859311d5cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_09.png using Guid(f593b0f762d6a3644bb76859311d5cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12db9f25372d3ac6762d6042fcb35eb3') in 0.103771 seconds 
+  Import took 0.109127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_13.png
+  artifactKey: Guid(6911e4a2fb7a1fc4084f3315a936ab57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_13.png using Guid(6911e4a2fb7a1fc4084f3315a936ab57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b3fa97188fbc6bdb4f4968df5f6e42') in 0.010715 seconds 
+  Import took 0.017068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_11.png
+  artifactKey: Guid(c4bd0efad84f20c4ebf5eb25307db4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_11.png using Guid(c4bd0efad84f20c4ebf5eb25307db4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a981678fc57b4fe6d8aa0b53e58afeb7') in 0.021253 seconds 
+  Import took 0.027086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_21.png
+  artifactKey: Guid(c701b50e11af1c443aeee9aebb5e95dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_21.png using Guid(c701b50e11af1c443aeee9aebb5e95dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3594a6f15f625577713ef90801cfe33e') in 0.017530 seconds 
+  Import took 0.023827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005545 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_22.png
+  artifactKey: Guid(1cfe51f7390a3c040959aabe157a6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_22.png using Guid(1cfe51f7390a3c040959aabe157a6ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95ed2cc3697e3f8f458635a1d2d1c16') in 0.019167 seconds 
+  Import took 0.026348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025267 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_23.png
+  artifactKey: Guid(8c13694fbf7b99940b81e739f886cbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_23.png using Guid(8c13694fbf7b99940b81e739f886cbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5765c4e89a5b8d4d8d785f307aafab78') in 0.014802 seconds 
+  Import took 0.020028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036718 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_24.png
+  artifactKey: Guid(be737426cf23bf7418891e5cf2856cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_24.png using Guid(be737426cf23bf7418891e5cf2856cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b73c55e3d3fc48e1fa80bae046a12a') in 0.036900 seconds 
+  Import took 0.042702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003733 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_25.png
+  artifactKey: Guid(ec789f42f22803a499f9a1f468c4742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_25.png using Guid(ec789f42f22803a499f9a1f468c4742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34d90757c2be33b1119fa01e6031b10') in 0.014055 seconds 
+  Import took 0.018261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024181 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_26.png
+  artifactKey: Guid(3d32586747da0d14ebf735a1630f9bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_26.png using Guid(3d32586747da0d14ebf735a1630f9bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8afeac9d764e93efb073a2810fdf32') in 0.012083 seconds 
+  Import took 0.017397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029824 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_33.png
+  artifactKey: Guid(6bc250d1ff9441d4aa3830fbcadf1693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_33.png using Guid(6bc250d1ff9441d4aa3830fbcadf1693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5447444e14e27fc36dd2ec5613c3cf') in 0.012333 seconds 
+  Import took 0.016832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029680 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_34.png
+  artifactKey: Guid(62eaedb9e84fa9d4cad797fdff9df027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_34.png using Guid(62eaedb9e84fa9d4cad797fdff9df027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae20f9bf6a9dccb942fcdc12522b36a') in 0.012886 seconds 
+  Import took 0.017499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030121 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_35.png
+  artifactKey: Guid(01087ad930c362349b89c0f8732184e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_35.png using Guid(01087ad930c362349b89c0f8732184e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5b64bf86510721d1e3b9b0a83983d7') in 0.012561 seconds 
+  Import took 0.016950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033182 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_36.png
+  artifactKey: Guid(300535c8e9c695941a7da5c6e7b90494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_36.png using Guid(300535c8e9c695941a7da5c6e7b90494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc120d37bed448e7e5b7a690464c583b') in 0.012579 seconds 
+  Import took 0.016944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033221 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_38.png
+  artifactKey: Guid(4672fe9739e102b428fe9a1ca585c0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_38.png using Guid(4672fe9739e102b428fe9a1ca585c0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8649717b7482b1dd9df3d5888a2e9a') in 0.011075 seconds 
+  Import took 0.016131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031511 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_45.png
+  artifactKey: Guid(86b00d9d739cfc34aad270de5777b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_45.png using Guid(86b00d9d739cfc34aad270de5777b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8922ff1a63651a6f089ce101b706e72') in 0.011343 seconds 
+  Import took 0.016779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031104 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_46.png
+  artifactKey: Guid(007bd730c4b80274b90bdb79f304f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_46.png using Guid(007bd730c4b80274b90bdb79f304f409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e8d1673360c6f31236a7d95a6a99bf') in 0.012918 seconds 
+  Import took 0.019186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027258 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_47.png
+  artifactKey: Guid(2e201b99d5e306a4a8c1a735b5b0e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_47.png using Guid(2e201b99d5e306a4a8c1a735b5b0e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5c9d1fa99f1f9dae863287823d4137') in 0.011455 seconds 
+  Import took 0.017298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029376 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_48.png
+  artifactKey: Guid(39142088d6dbfa549bdc3a03e45edc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_48.png using Guid(39142088d6dbfa549bdc3a03e45edc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d3f1a0ad54133179dd5f43c8ba5b5a') in 0.011992 seconds 
+  Import took 0.016663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036204 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_49.png
+  artifactKey: Guid(32391f4e81e4f3e4aa3ea84b964ca237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_49.png using Guid(32391f4e81e4f3e4aa3ea84b964ca237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578ab6e910e2277905a02169a9155fbc') in 0.010343 seconds 
+  Import took 0.017142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030201 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_50.png
+  artifactKey: Guid(8f39fbf3e8ba70b45825a1f78306699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_50.png using Guid(8f39fbf3e8ba70b45825a1f78306699b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabdebf35e0fdf380b30e0011bc60bb0') in 0.011364 seconds 
+  Import took 0.016935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030808 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_57.png
+  artifactKey: Guid(80c289404a49c604582992f54ffb205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_57.png using Guid(80c289404a49c604582992f54ffb205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9835465fcc16f0f4b7fecb73a5e1e5b2') in 0.014018 seconds 
+  Import took 0.018264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029388 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_58.png
+  artifactKey: Guid(2be25653d9986d444b2f33c02dffce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_58.png using Guid(2be25653d9986d444b2f33c02dffce85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85869c49e7fba2d5e8ba91cbc1b343e5') in 0.010391 seconds 
+  Import took 0.016334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031301 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_59.png
+  artifactKey: Guid(797d35c7291bffd4db3a5f0ffc84c971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_59.png using Guid(797d35c7291bffd4db3a5f0ffc84c971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5531148a13355ff662ada100fc3169') in 0.022643 seconds 
+  Import took 0.027431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018351 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_60.png
+  artifactKey: Guid(c6b6307373a4bfe4d80ed92ebd6dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_60.png using Guid(c6b6307373a4bfe4d80ed92ebd6dafb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757b74a1c5063b3b0448820a166ed85d') in 0.012896 seconds 
+  Import took 0.017440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027268 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_61.png
+  artifactKey: Guid(dabe72e1155443e4795cdf375c9ac85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_61.png using Guid(dabe72e1155443e4795cdf375c9ac85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474cba073f435ba63699ec9e4dee6a8') in 0.010625 seconds 
+  Import took 0.017647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037656 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_62.png
+  artifactKey: Guid(5957d74869b93d6449e4247eb732b0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_62.png using Guid(5957d74869b93d6449e4247eb732b0a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70ed12a5735f99f62477d8b2ff7bc51') in 0.011888 seconds 
+  Import took 0.016377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033111 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_70.png
+  artifactKey: Guid(502cc2587432cd246a1664ed159ccc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_70.png using Guid(502cc2587432cd246a1664ed159ccc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8761aa7ece740b01cd13db16cc4e8f') in 0.012378 seconds 
+  Import took 0.017532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029791 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_71.png
+  artifactKey: Guid(a4c1ec480379fb94a9ec8189efb4c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_71.png using Guid(a4c1ec480379fb94a9ec8189efb4c8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47206c70b67775fcaab2269584bbbfe') in 0.018732 seconds 
+  Import took 0.026444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021410 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_72.png
+  artifactKey: Guid(016c47098303ee1469a7e5411350e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_72.png using Guid(016c47098303ee1469a7e5411350e9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2544721b897f80d0a068513bf822dc') in 0.016987 seconds 
+  Import took 0.023982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020751 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_73.png
+  artifactKey: Guid(1cc750c89b8df4c4db6674a37c3cb9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_73.png using Guid(1cc750c89b8df4c4db6674a37c3cb9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e439909c2b66dccf016231670974e1f3') in 0.030034 seconds 
+  Import took 0.045285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005585 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_74.png
+  artifactKey: Guid(d8061ac58a1ae6a47838f83095edf77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_74.png using Guid(d8061ac58a1ae6a47838f83095edf77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fa2b2b2f67a698e289f4a817cd1ec6') in 0.029409 seconds 
+  Import took 0.034634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020101 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_81.png
+  artifactKey: Guid(c1f54db643d9a224b8a8ca03889b50e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_81.png using Guid(c1f54db643d9a224b8a8ca03889b50e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c806b3592da38bad2392c657312d813a') in 0.011521 seconds 
+  Import took 0.016613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030053 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_82.png
+  artifactKey: Guid(ca6a70b76b3b0524582b707ae3b73aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_82.png using Guid(ca6a70b76b3b0524582b707ae3b73aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a2a738683d1d6eba7545ba42065b6e') in 0.013576 seconds 
+  Import took 0.019922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027921 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_83.png
+  artifactKey: Guid(8adb3afd52d1b404a85de0c8b24b12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_83.png using Guid(8adb3afd52d1b404a85de0c8b24b12a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583d4af13d7f8b8ab1f1f13ef519bc6f') in 0.012654 seconds 
+  Import took 0.018271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030101 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_84.png
+  artifactKey: Guid(6adb94deae153c04e8b6449e9d46d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_84.png using Guid(6adb94deae153c04e8b6449e9d46d50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0049a3a78a5ddbbea1dc41b2c3de4ac') in 0.013512 seconds 
+  Import took 0.018484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028093 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_85.png
+  artifactKey: Guid(4c2a0fa949775f54e88f92377c272a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_85.png using Guid(4c2a0fa949775f54e88f92377c272a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a588955dae6eea3e9016a04056a6365b') in 0.013775 seconds 
+  Import took 0.018155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028587 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_86.png
+  artifactKey: Guid(392c9eec275c1004e8d610ef6207932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_86.png using Guid(392c9eec275c1004e8d610ef6207932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dba07ca9f1c7e7bb7f3809890ec9dcb') in 0.012827 seconds 
+  Import took 0.017851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032737 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_93.png
+  artifactKey: Guid(f31beae331fd0fc43a7edc2d155f57a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_93.png using Guid(f31beae331fd0fc43a7edc2d155f57a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88ef2324baccc0574f3f97922948acf') in 0.012692 seconds 
+  Import took 0.016970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034827 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_94.png
+  artifactKey: Guid(601454020c212944587335386493e60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_94.png using Guid(601454020c212944587335386493e60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be17176bac36f31ba1af60b97f8a28a5') in 0.013174 seconds 
+  Import took 0.017672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029889 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_95.png
+  artifactKey: Guid(d9b5cca1fda8ad4469b03f1436e24a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_95.png using Guid(d9b5cca1fda8ad4469b03f1436e24a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4254c5d46651fec4496482774b17943') in 0.013096 seconds 
+  Import took 0.017682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029068 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_96.png
+  artifactKey: Guid(dbf07d5fa5fe6de45b1fdd7f356fa536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_96.png using Guid(dbf07d5fa5fe6de45b1fdd7f356fa536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36964e823fe1925f4890648ea9e067') in 0.011025 seconds 
+  Import took 0.016096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031633 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_97.png
+  artifactKey: Guid(fb5419fbf8a827a48a0f49b0333d85b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_97.png using Guid(fb5419fbf8a827a48a0f49b0333d85b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37e9fcda32fef915d22be46c5fa06d9') in 0.011775 seconds 
+  Import took 0.016650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031267 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_98.png
+  artifactKey: Guid(7aaab079c76663049ad319e18e022724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_98.png using Guid(7aaab079c76663049ad319e18e022724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425c0bc6ed2d200695837c44ca8a984a') in 0.014145 seconds 
+  Import took 0.021997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022839 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/Thumbs.db
+  artifactKey: Guid(43161e6b584db2442a6c1bc8292601e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/Thumbs.db using Guid(43161e6b584db2442a6c1bc8292601e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a1cb17ff8dd76da3b1378462564aac') in 0.009891 seconds 
+  Import took 0.014325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.715143 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_69.png
+  artifactKey: Guid(3ae2b4b094983554193361dbf1270071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_69.png using Guid(3ae2b4b094983554193361dbf1270071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a7337d74be6aaf8a44228c9210076c') in 0.017524 seconds 
+  Import took 0.021870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578549 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_37.png
+  artifactKey: Guid(13ac6459be8334c49bedde8f72102f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/classes_26x28/oryx_16bit_fantasy_classes_trans_37.png using Guid(13ac6459be8334c49bedde8f72102f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1c9495e8bd1ff3086ad7874718600c') in 0.012609 seconds 
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.356796 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/creatures_24x24
+  artifactKey: Guid(c1deb98c9b68b0a49942e3754f17131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/creatures_24x24 using Guid(c1deb98c9b68b0a49942e3754f17131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b47a868e213d43533d0d19be09f06a') in 0.004622 seconds 
+  Import took 0.010101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.162587 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/creatures_24x24/oryx_16bit_fantasy_creatures_01.png
+  artifactKey: Guid(6019eb982790d2143b26dcca8d932f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/creatures_24x24/oryx_16bit_fantasy_creatures_01.png using Guid(6019eb982790d2143b26dcca8d932f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aded91bc004e451595b40d599e75201') in 0.014396 seconds 
+  Import took 0.019026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.201098 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/creatures_24x24/oryx_16bit_fantasy_creatures_01.png
+  artifactKey: Guid(6019eb982790d2143b26dcca8d932f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/creatures_24x24/oryx_16bit_fantasy_creatures_01.png using Guid(6019eb982790d2143b26dcca8d932f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f585886dd406c27c29544da19e3a1f11') in 0.012819 seconds 
+  Import took 0.017563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.065362 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_01.png
+  artifactKey: Guid(4e74e1d24c4cdaa428b5791df59672e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_01.png using Guid(4e74e1d24c4cdaa428b5791df59672e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a7fd9fe8f35836d7c3bbda257ed8e') in 0.014737 seconds 
+  Import took 0.019239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.463013 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_01.png
+  artifactKey: Guid(4e74e1d24c4cdaa428b5791df59672e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_01.png using Guid(4e74e1d24c4cdaa428b5791df59672e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7263c6304dc362f9f6a2c9431ae7115d') in 0.012169 seconds 
+  Import took 0.016405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.657993 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_01.png
+  artifactKey: Guid(ef01a030e2ac80441be9bdfe51fcd781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_01.png using Guid(ef01a030e2ac80441be9bdfe51fcd781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7ee1a277bb38205edecf83c2075966') in 0.021906 seconds 
+  Import took 0.028453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.623615 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_01.png
+  artifactKey: Guid(ef01a030e2ac80441be9bdfe51fcd781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_01.png using Guid(ef01a030e2ac80441be9bdfe51fcd781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089540546f7b579ab902e2805a69371d') in 0.011123 seconds 
+  Import took 0.016410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.991927 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/items_16x16/oryx_16bit_fantasy_items_01.png
+  artifactKey: Guid(9e372c151ea6d084b89996f8a43e3c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/items_16x16/oryx_16bit_fantasy_items_01.png using Guid(9e372c151ea6d084b89996f8a43e3c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8bcd72fba9d875174c39fa1d80f3df') in 0.017125 seconds 
+  Import took 0.022628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.385769 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/items_16x16/oryx_16bit_fantasy_items_01.png
+  artifactKey: Guid(9e372c151ea6d084b89996f8a43e3c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/items_16x16/oryx_16bit_fantasy_items_01.png using Guid(9e372c151ea6d084b89996f8a43e3c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835fc4b6666f5944a4192ebec59f5aaa') in 0.010159 seconds 
+  Import took 0.015146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.507546 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_77.png
+  artifactKey: Guid(908225624f75068469d655d93740f2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_77.png using Guid(908225624f75068469d655d93740f2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e189d1c08e96c39355e827b54313a34') in 0.013539 seconds 
+  Import took 0.020168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.651460 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_74.png
+  artifactKey: Guid(883189b2876bcab45b3f9013dad1b513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_74.png using Guid(883189b2876bcab45b3f9013dad1b513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169877c90692431838e3340fc4599fe7') in 0.013272 seconds 
+  Import took 0.018313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.471260 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_72.png
+  artifactKey: Guid(57489adfe219f4d4d80f79ccbc89a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_72.png using Guid(57489adfe219f4d4d80f79ccbc89a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebce89f58debb2fa0e22002834ed5d9d') in 0.015124 seconds 
+  Import took 0.019766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.371151 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_79.png
+  artifactKey: Guid(4f33debaf18668a46b56fe3c7e91d979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_79.png using Guid(4f33debaf18668a46b56fe3c7e91d979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ab4fe7a1eee30615dfb363b5862b56') in 0.016264 seconds 
+  Import took 0.021486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424118 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_85.png
+  artifactKey: Guid(169ed0fde98c2dc48883d3835e992ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_32x32/oryx_16bit_fantasy_fx_85.png using Guid(169ed0fde98c2dc48883d3835e992ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa088dbfecb630433e5bc8d17ec002d5') in 0.011851 seconds 
+  Import took 0.017657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.791750 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_77.png
+  artifactKey: Guid(b054e23613f414c41a6cb7cda93c2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/fx_24x24/oryx_16bit_fantasy_fx2_77.png using Guid(b054e23613f414c41a6cb7cda93c2063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9da97c34cd357bb1784c0d11b3e3b8b') in 0.019355 seconds 
+  Import took 0.024594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809769 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/items_16x16/oryx_16bit_fantasy_items_75.png
+  artifactKey: Guid(ef4833eb9d03e0f459b1ef50984f7521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/items_16x16/oryx_16bit_fantasy_items_75.png using Guid(ef4833eb9d03e0f459b1ef50984f7521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ad0bb2dd95bc80803323659d46a10d') in 0.031868 seconds 
+  Import took 0.038464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.319796 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/world_24x24/oryx_16bit_fantasy_world_59.png
+  artifactKey: Guid(514a018ecab5cc642a4c9511281fb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/world_24x24/oryx_16bit_fantasy_world_59.png using Guid(514a018ecab5cc642a4c9511281fb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7508a9ba473543b54a7deaa9ca623630') in 0.017242 seconds 
+  Import took 0.023956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.748087 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/world_24x24/oryx_16bit_fantasy_world_59.png
+  artifactKey: Guid(514a018ecab5cc642a4c9511281fb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/Sliced/world_24x24/oryx_16bit_fantasy_world_59.png using Guid(514a018ecab5cc642a4c9511281fb9b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dde294af7b8d898b0529c5aab604ff7') in 0.014622 seconds 
+  Import took 0.018986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.060843 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_creatures.png
+  artifactKey: Guid(cf1af516ae2679141bbd8d0f53390c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_creatures.png using Guid(cf1af516ae2679141bbd8d0f53390c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402e4a5f76783cb294c110af315c77fb') in 0.024775 seconds 
+  Import took 0.029696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.921949 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_creatures.png
+  artifactKey: Guid(cf1af516ae2679141bbd8d0f53390c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_creatures.png using Guid(cf1af516ae2679141bbd8d0f53390c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c89bfbe026d27cd0fc3d49584c0d05') in 0.016226 seconds 
+  Import took 0.022588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.430915 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_fx.png
+  artifactKey: Guid(2c58e12998b6d194f91983afbc130bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_fx.png using Guid(2c58e12998b6d194f91983afbc130bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ad81b302169f8dd67458c4b0a73f7d') in 0.019363 seconds 
+  Import took 0.024291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.222587 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_fx.png
+  artifactKey: Guid(2c58e12998b6d194f91983afbc130bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_fx.png using Guid(2c58e12998b6d194f91983afbc130bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd17252c4abec5266c12f2523da4070') in 0.020622 seconds 
+  Import took 0.026432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.787542 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_tiles.png
+  artifactKey: Guid(bcb9ed881eb47e745bdad011e5527ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_tiles.png using Guid(bcb9ed881eb47e745bdad011e5527ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2450b63124bdb9c6f78295511c888e') in 0.023439 seconds 
+  Import took 0.029888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567477 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_items.png
+  artifactKey: Guid(b405a3301eb034f43b6697f443eac774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_items.png using Guid(b405a3301eb034f43b6697f443eac774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5dd3cd0997c62643eada1460798477') in 0.025554 seconds 
+  Import took 0.030703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.301376 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_items.png
+  artifactKey: Guid(b405a3301eb034f43b6697f443eac774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_items.png using Guid(b405a3301eb034f43b6697f443eac774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177b28e927fd597f5f225e41b76b2857') in 0.015370 seconds 
+  Import took 0.020855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.481217 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_tiles.png
+  artifactKey: Guid(bcb9ed881eb47e745bdad011e5527ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_tiles.png using Guid(bcb9ed881eb47e745bdad011e5527ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f852d9d4c84d618da558dfda6f439e') in 0.029175 seconds 
+  Import took 0.034373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.563647 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world.png
+  artifactKey: Guid(b2872c6765daf764db6505a6e7a9d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world.png using Guid(b2872c6765daf764db6505a6e7a9d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0aacd5a36e56b57595436a82331a3a') in 0.021119 seconds 
+  Import took 0.025672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.494709 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world2.png
+  artifactKey: Guid(362af3f37a6544b4da5d758df001c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world2.png using Guid(362af3f37a6544b4da5d758df001c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd40c5d870f515360238ac79fffc37eb') in 0.023070 seconds 
+  Import took 0.027893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.585796 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world.png
+  artifactKey: Guid(b2872c6765daf764db6505a6e7a9d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world.png using Guid(b2872c6765daf764db6505a6e7a9d0e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf12cb9e46e7c00369f562108e9325d0') in 0.014673 seconds 
+  Import took 0.019061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.066322 seconds.
+  path: Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world2.png
+  artifactKey: Guid(362af3f37a6544b4da5d758df001c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/16-Bit Fantasy Sprite Set/TMX Source/oryx_world2.png using Guid(362af3f37a6544b4da5d758df001c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d25abee0bf66b2c90b005e29181b22') in 0.019993 seconds 
+  Import took 0.028023 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
